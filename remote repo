@@ -1,0 +1,5 @@
+git init #=> Initialize a Git repository in the jottly directory
+git add . #=> Stage all of your files
+git commit -m 'first commit' #=> Commit the files to the local Git repo
+git remote add origin https://github.com/<user name>/first-repo.git #=> Link the local repo to it's remote counterpart in Github
+git push -u origin master #=> Push (transmit) the committed changes to the remote repo in Github
